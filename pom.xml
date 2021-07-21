@@ -9,6 +9,23 @@
 
     <name>java-jsp-diary</name>
 
+<distributionManagement>
+	 
+  <repository>
+    <name>central</name>
+    <id>Java_Jsp_Diary-generic-local</id>
+    <url>http://13.250.13.8:8082/artifactory/Java_Jsp_Diary-generic-local/</url>
+  </repository>
+  
+  
+  <snapshotRepository>
+    <id>central</id>
+    <name>Java_Jsp_Diary-generic-local</name>
+    <url>http://13.250.13.8:8082/artifactory/Java_Jsp_Diary-generic-local/</url>
+  </snapshotRepository>
+
+</distributionManagement>
+
     <dependencies>
         <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
         <dependency>
